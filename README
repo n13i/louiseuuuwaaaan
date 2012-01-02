@@ -1,0 +1,14 @@
+louiseuuuwaaaan
+a twitter bot that posts ugly messages using markov-chain methods
+
+USAGE
+
+% sqlite3 db/markov.db < db/db.sql
+creates tables
+
+% ./markov-build.pl < louisecopipe.txt
+generates markov-chain state transition table (db/markov.db)
+
+% ./generate.pl test
+generates text using db/markov.db
+
